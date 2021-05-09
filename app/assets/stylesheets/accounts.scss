@@ -14,4 +14,19 @@ body {
 .follower-suggestions {
 	background: #fff;
 	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px solid #ddd;
+}
+
+.profile-pic {
+	border-radius: 50%;
+}
+
+.profile-stats {
+	width: 120px;
+	float: 120px;
+}
+
+.profile-posts {
+	margin-top: 50px;
 }
