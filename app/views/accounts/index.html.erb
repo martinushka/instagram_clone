@@ -1,0 +1,16 @@
+<class class="container">
+	<class class="row">
+		<class class="col-8">
+
+			<%= "#{@posts.size.to_s} active posts found."%>
+			
+				<% @posts.each do |post|%>
+
+				<div> <%= post.account.username %> </div>
+
+				<%= image_tag post.image.url, class: 'img img-fluid' %>
+
+			<% end %>
+		</class>
+	</class>
+</class>
